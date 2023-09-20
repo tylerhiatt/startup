@@ -16,3 +16,10 @@ Text that is not a quote
 This is a link to the [README.md](https://github.com/tylerhiatt/startup/blob/0664745902d5a11085191eba0f12555b2b856b25/README.md)
 
 See [this gihub page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for more markdwon language syntax tips.
+
+# EC2 Instance stuff
+- SSH into the Server
+➜  ssh -i [key pair file] ubuntu@[ip address]
+
+- Elastic IP Address: 54.208.238.109
+- Domain Name: fernwehsup.com
