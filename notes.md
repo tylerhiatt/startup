@@ -17,9 +17,36 @@ This is a link to the [README.md](https://github.com/tylerhiatt/startup/blob/066
 
 See [this gihub page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for more markdwon language syntax tips.
 
-# EC2 Instance stuff
+# Website and Domain notes
 - SSH into the Server
 ➜  ssh -i [key pair file] ubuntu@[ip address]
 
 - Elastic IP Address: 54.208.238.109
-- Domain Name: fernwehsup.com
+- Domain Name: https://fernwehsup.com
+
+- Modify Caddy file to make website secure under https, i.e.
+myfunkychickens.click {
+   root * /usr/share/caddy
+   file_server
+   header Cache-Control no-store
+   header -etag
+   header -server
+   }
+
+
+startup.myfunkychickens.click {
+   reverse_proxy * localhost:4000
+   header Cache-Control no-store
+   header -server
+   header -etag
+   header Access-Control-Allow-Origin *
+}
+
+simon.myfunkychickens.click {
+   reverse_proxy * localhost:3000
+   header Cache-Control no-store
+   header -server
+   header -etag
+   header Access-Control-Allow-Origin *
+}
+- sudo service caddy restart
