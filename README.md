@@ -6,16 +6,19 @@ CS 260 Startup Web Application
 
 ## Website Outline Design
 Main Page Canva Sketch
-![MainPageCanvaSketch]()
+![MainPageCanvaSketch1](WebsiteDesigns/mainpagep1.png)
+![MainPageCanvaSketch2](WebsiteDesigns/mainpagept2.png)
+![MainPageCanvaSketch2](WebsiteDesigns/mainpagept3.png)
+![MainPageCanvaSketch2](WebsiteDesigns/mainpagept4.png)
 
 Info Page Canva Sketch
-![InfoPageCanvaSketch](infopage.png)
+![InfoPageCanvaSketch](WebsiteDesigns/infopage.png)
 
 Sign In Form Canva Sketch
-![SignInFormCanvaSketch](signinform.png)
+![SignInFormCanvaSketch](WebsiteDesigns/signinform.png)
 
 Order Form Canva Sketch
-![OrderFormCanvaSketch](orderform.png)
+![OrderFormCanvaSketch](WebsiteDesigns/orderform.png)
 
 ## Key Features
 
