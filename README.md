@@ -1,5 +1,5 @@
 # Welcome to Fernweh Ventures
-[Fernweh Ventures Stand-Up Paddle Board Website](https://www.fernwehsup.com)
+[Fernweh Ventures Stand-Up Paddle Board Website](https://fernwehsup.com)
 # Deliverable Specification
 ## Elevator Pitch
 Welcome to Fernweh Ventures, your gateway to adventure! At Fernweh Ventures, we've redefined the way you explore the great outdoors. Imagine packing up your sense of wanderlust, your thirst for adventure, and your love for paddleboarding into one lightweight backpack. With our innovative, packable, and inflatable stand-up paddle boards, you can now embark on backpacking trips like never before.
