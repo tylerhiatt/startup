@@ -52,5 +52,6 @@ For this deliverable I built out the structure of my application using HTML.
 - Text - There are textual descriptions throughout the pages describing the company and the products offered.
 - Images - Images are included in about every section.
 - Login - There are Input boxes and submit buttons for login.
+- 3rd party service calls - There is a placeholder for using Paypal integration to hold credit card info for ordering products.
 - Database - There are placeholders for showing order history and account history from a database.
 - WebSocket - There is a placeholder for showing real-time customer reviews on the order page.
