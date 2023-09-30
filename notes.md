@@ -50,3 +50,7 @@ simon.myfunkychickens.click {
    header Access-Control-Allow-Origin *
 }
 - sudo service caddy restart
+
+- Great resource Websites:
+   - https://www.pexels.com - free pictures
+   - https://canva.com - brainstorming design website
