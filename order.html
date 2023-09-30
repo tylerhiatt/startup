@@ -7,12 +7,14 @@
     <!-- <link rel="stylesheet" href="styles.css"> Add CSS file here -->
 </head>
 <body>
+    <!--Header-->
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="signin.html">Sign In</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="order.html">Order</a></li>
             </ul>
         </nav>
     </header>
@@ -20,12 +22,12 @@
     <section class="order-form">
         <!--Hero Section-->
         <h1>Order Your Adventure Gear</h1>
-        <img src="website-pics/pexels-Ð½Ð¸ÐºÐ¸ÑÐ°-9203183.jpg" alt="Adventure Gear Hero">
+        <img src="website-pics/pexels-Ð½Ð¸ÐºÐ¸ÑÐ°-9203183.jpg" alt="Adventure Gear Hero" width="300">
         <form action="order-process.php" method="post"> <!-- Replace "order-process.php" with actual order processing script -->
             <hr/>
             <div class="product">
                 <h3>Adventurer's Stand-Up Paddle Board</h3>
-                <img src="website-pics/pexels-laura-stanley-1790184.jpg" alt="Adventurer's Stand-Up Paddle Board">
+                <img src="website-pics/pexels-laura-stanley-1790184.jpg" alt="Adventurer's Stand-Up Paddle Board" width="200">
                 <p>Price: $99.99</p> <!-- Replace with the actual price -->
                 <label for="quantity-paddle-board">Quantity:</label>
                 <input type="number" id="quantity-paddle-board" name="quantity-paddle-board" min="1" value="1" required>
@@ -33,7 +35,7 @@
 
             <div class="product">
                 <h3>Adventurer's Backpack</h3>
-                <img src="website-pics/pexels-pawan-yadav-2577274.jpg" alt="Adventurer's Backpack">
+                <img src="website-pics/pexels-pawan-yadav-2577274.jpg" alt="Adventurer's Backpack" width="200">
                 <p>Price: $159.99</p> <!-- Replace with the actual price -->
                 <label for="quantity-backpack">Quantity:</label>
                 <input type="number" id="quantity-backpack" name="quantity-backpack" min="1" value="1" required>
@@ -65,6 +67,29 @@
         </form> -->
 
     </section>
+
+    <!-- Websocket Placeholder -->
+    <div id="customer-reviews">
+        <!-- Reviews will be added here via WebSocket -->
+        <hr/>
+    </div>
+
+    <!-- HTML form for submitting new reviews -->
+    <form id="review-form">
+        <input type="text" id="review-input" placeholder="Write your review..." required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Placeholder for WebSocket integration
+        // Connect to the WebSocket server and handle real-time updates
+    </script>
+
+    <!-- Database Placeholder Info -->
+    <div>
+        <p>Order History:</p>
+        <!-- Display order details for the user -->
+    </div>
 
     <footer>
         <div class="contact-info">
