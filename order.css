@@ -1,0 +1,41 @@
+.container {
+    max-width: 960px;
+}
+
+body {
+    background-color: #f5f5f5;  /* This is a light gray color */
+}
+
+.light-gray-text {
+color: rgb(151, 150, 150);
+}
+
+.custom-padding {
+    margin-right: 20px;
+}
+
+.custom-button-sandy {
+    background-color: rgb(247, 116, 1); 
+    border-color: rgb(247, 116, 1);
+}
+
+.custom-button-sandy:hover {
+    background-color: rgb(249, 87, 56); 
+    border-color: rgb(249, 116, 1);
+}
+
+.custom-blue,
+.custom-blue a, 
+.custom-blue a:visited, 
+.custom-blue a:hover, 
+.custom-blue a:active {
+    color: rgb(8, 61, 119);
+}
+
+h4 > .text-primary {
+    color: rgb(8, 61, 119);
+}
+
+h4 > .badge.bg-primary {
+    background-color: rgb(8, 61, 119);
+}
