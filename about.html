@@ -28,17 +28,18 @@
           <h5 class="float-md-start mb-0 text-center" style="color: #083D77">Fernweh Ventures</h5>
           <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="home.html">Home</a>
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="about.html">About</a>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" style="text-shadow: 1px 1px #000;" href="about.html">About</a>
             <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="order.html">Order</a>
             <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="signin.html">Sign In</a>
           </nav>
         </div>
       </header>
-      <div class="py-5 text-center container">
+      <div class="py-5 container">
         <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-              <h1 style="color: #EBEBD3">About Our Products</h1>
-              <p style="color: #EBEBD3" class="lead text-body-secondary">At Fernweh Ventures, we are dedicated to making products that redefine the way you explore the great outdoors.</p>
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <h1 style="color: #EBEBD3; text-shadow: 1px 1px #000;
+              ;">About Our Products</h1>
+              <p style="color: #EBEBD3; text-shadow: 1px 1px #000" class="lead text-body-secondary">At Fernweh Ventures, we are dedicated to making products that redefine the way you explore the great outdoors.</p>
             </div>
           </div>
       </div>
@@ -49,48 +50,71 @@
         <div class="row row-cols-1 row-cols-sm-2 g-3">
             <div class="col">
                 <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img src="website-pics/pexels-irockeritaly-7967504.jpg" class="card-img-top" alt="SUP Order">
                     <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5>Adventurer's Stand-Up Paddle Board</h5>
+                        <p class="card-text">Discover the freedom of paddleboarding like never before with 
+                          our lightweight stand-up paddle board that fits right into your 
+                          backpack. Whether you're a seasoned paddler or a first-time adventurer, 
+                          this board is designed for you.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Order <a href="order.html"></a></button>
                             </div>
-                            <small class="text-body-secondary">9 mins</small>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <img src="website-pics/pexels-pawan-yadav-2577274.jpg" class="card-img-top" alt="Backpack Order">
                     <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5>Adventurer's Backpack</h5>
+                        <p class="card-text">Whether you're a seasoned paddleboard enthusiast or a beginner 
+                          looking to explore serene waters, this backpack is designed to 
+                          make your paddling experience easier, more convenient, and stylish.</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Order <a href="order.html"></a></button>
                             </div>
-                            <small class="text-body-secondary">9 mins</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+        
+        <!-- Sign Up Section -->
+        <section class="sign-up">
+          <hr/>
+          <h2>Sign Up for Exclusive Offers</h2>
+          <p>Stay updated with our latest products and promotions.</p>
+            <label for="username" class="form-label">Username</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback">
+                    Your username is required.
+                </div>
+            </div>
+            <label for="password" class="form-label pt-2">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            <button type="create" class="btn btn-primary mt-2 custom-button-sandy">Create Account <a href="signin.html"></a></button>
+        </section>
 
+    </div>
+    
+</div>
 
 </main>
 
-<footer class="text-body-secondary py-5">
+<footer class="text-body-secondary py-5 text-center">
   <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+    <p class="mb-1">&copy; Fernweh Ventures</p>
+    <ul class="list-inline">
+      <li class="list-inline-item custom-blue"><a href="index.html">Home</a></li>
+      <!-- <li class="list-inline-item"><a href="signin.html">Sign In</a></li> -->
+      <li class="list-inline-item custom-blue"><a href="order.html">Order</a></li>
+    </ul>
   </div>
 </footer>
 <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->

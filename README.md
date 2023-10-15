@@ -47,7 +47,8 @@ Join us in embracing the Fernweh spirit – the irresistible call of the wildern
 ## HTML Deliverable
 For this deliverable I built out the structure of my application using HTML.
 
-- **HTML pages** - Four HTML pages that represent the home page, the ability to learn more about the company and products, sign in and order the products of choice.
+- **HTML pages** 
+- Four HTML pages that represent the home page, the ability to learn more about the company and products, sign in and order the products of choice.
 - Links - Each page holds links to the other pages. There are also call-to-action buttons on the home page that link to the about, order and sign in pages.
 - Text - There are textual descriptions throughout the pages describing the company and the products offered.
 - Images - Images are included in about every section.
@@ -55,3 +56,6 @@ For this deliverable I built out the structure of my application using HTML.
 - 3rd party service calls - There is a placeholder for using Paypal integration to hold credit card info for ordering products.
 - Database - There are placeholders for showing order history and account history from a database.
 - WebSocket - There is a placeholder for showing real-time customer reviews on the order page.
+
+
+- **CSS pages** 

@@ -31,9 +31,30 @@
  * Hero Section  
 */
 .hero-section {
-    background: url('website-pics/pexels-nick-kwan-2745258.jpg') no-repeat center center;
+    background: url('website-pics/order-hero.jpg') no-repeat center center;
     background-size: cover;
     
     
   }
+
+
+/*  
+ * Custom CSS
+*/
+  .custom-blue,
+  .custom-blue a, 
+  .custom-blue a:visited, 
+  .custom-blue a:hover, 
+  .custom-blue a:active {
+      color: rgb(8, 61, 119);
+  }
   
+.custom-button-sandy {
+    background-color: rgb(247, 116, 1); 
+    border-color: rgb(247, 116, 1);
+}
+
+.custom-button-sandy:hover {
+    background-color: rgb(249, 87, 56); 
+    border-color: rgb(249, 116, 1);
+}
