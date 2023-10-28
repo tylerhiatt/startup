@@ -27,7 +27,7 @@
         <div>
           <h5 class="float-md-start mb-0 text-center" style="color: #083D77">Fernweh Ventures</h5>
           <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="home.html">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="index.html">Home</a>
             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" style="text-shadow: 1px 1px #000;" href="about.html">About</a>
             <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="order.html">Order</a>
             <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="signin.html">Sign In</a>
@@ -82,12 +82,46 @@
                 </div>
             </div>
         </div>
-        
+
+        <!-- Customer Reviews Section -->
+        <section class="customer-reviews-section py-4">
+          <hr/>
+          <div class="container">
+              <h2 class="text-center">Customer Reviews</h2>
+              <div class="row mt-4">
+                  <div class="col-md-6">
+                      <div class="review">
+                          <p class="review-text">"This paddle board is amazing! Lightweight and easy to carry."</p>
+                          <p class="review-author">- John Doe</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="review">
+                          <p class="review-text">"Loved the experience! Highly recommended."</p>
+                          <p class="review-author">- Jane Smith</p>
+                      </div>
+                  </div>
+                  <!-- Add more reviews as needed in new <div class="col-md-6"> elements -->
+              </div>
+              <!-- Review Submission Form -->
+              <div class="review-submission-form py-3">
+                <h4>Leave a Review</h4>
+                <form>
+                  <textarea class="form-control" id="reviewText" rows="3" placeholder="Write your review here..." required></textarea>
+                  <button type="button" class="btn btn-primary mt-2 custom-button-sandy" onclick="submitReview()">Submit Review</button>
+                </form>
+            </div>
+          </div>
+        </section>
+                
         <!-- Sign Up Section -->
-        <section class="sign-up">
+        <section class="sign-up py-3">
           <hr/>
           <h2>Sign Up for Exclusive Offers</h2>
           <p>Stay updated with our latest products and promotions.</p>
+          <button type="button" class="btn btn-primary mt-2 custom-button-sandy" id="signInButton">Sign In / Create Account</button>
+
+          <!-- <form>
             <label for="username" class="form-label">Username</label>
             <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
@@ -97,8 +131,8 @@
                 </div>
             </div>
             <label for="password" class="form-label pt-2">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Password">
-            <button type="create" class="btn btn-primary mt-2 custom-button-sandy">Create Account <a href="signin.html"></a></button>
+            <input type="password" class="form-control" id="password" placeholder="Password" required>
+          </form> -->
         </section>
 
     </div>
@@ -112,12 +146,13 @@
     <p class="mb-1">&copy; Fernweh Ventures</p>
     <ul class="list-inline">
       <li class="list-inline-item custom-blue"><a href="index.html">Home</a></li>
-      <!-- <li class="list-inline-item"><a href="signin.html">Sign In</a></li> -->
       <li class="list-inline-item custom-blue"><a href="order.html">Order</a></li>
+      <li class="list-inline-item custom-blue"><a href="signin.html">Sign In</a></li>
     </ul>
   </div>
 </footer>
-<!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
+
+<script src="about.js"></script>
 
     </body>
 </html>

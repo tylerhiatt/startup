@@ -34,3 +34,11 @@ body {
     background-color: rgb(249, 87, 56); 
     border-color: rgb(249, 116, 1);
 }
+
+.custom-blue,
+.custom-blue a, 
+.custom-blue a:visited, 
+.custom-blue a:hover, 
+.custom-blue a:active {
+    color: rgb(8, 61, 119);
+}

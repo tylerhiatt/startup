@@ -58,3 +58,33 @@
     background-color: rgb(249, 87, 56); 
     border-color: rgb(249, 116, 1);
 }
+
+
+/* 
+* Customer Reviews Styles 
+*/
+.customer-reviews-section {
+  background-color: #f5f5f5; /* Light background, adjust as needed */
+  border-top: 1px solid #ddd;
+}
+
+.customer-reviews-section h2 {
+  padding-bottom: 15px;
+}
+
+.review {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.review-text {
+  font-style: italic;
+}
+
+.review-author {
+  font-weight: bold;
+  color: #555;
+}
