@@ -54,7 +54,7 @@ For this deliverable I built out the structure of my application using HTML.
 - **Login** - There are Input boxes and submit buttons for login.
 - **3rd party service calls** - There is a placeholder for using Paypal integration to hold credit card info for ordering products.
 - **Database** - There are placeholders for showing order history and account history from a database.
-- **WebSocket** - There is a placeholder for showing real-time customer reviews on the order page.
+- **WebSocket** - There is a placeholder for showing real-time customer reviews on the about page.
 
 ## CSS Deliverable
 The website is properly styled into its final appearance, utilizing the Bootsrap CSS structure.
@@ -66,3 +66,11 @@ The website is properly styled into its final appearance, utilizing the Bootsrap
 - **Application elements** - Uses good contrast and whitespace
 - **Application text content** - Consistent fonts
 - **Application images** - Appropriate images for the products and hero elements
+
+## JavaScript Deliverable
+The website now has JavaScript enabled capabilities described below. There are also added placeholders for future technology.
+
+- **login** - When the user presses various buttons, it takes them to the proper pages.
+- **database** - User login and customer review data is currently stored in local storage but holds a placeholder for future database communication.
+- **WebSocket** - There's a placeholder present for a WebSocket connection to display real-time customer reviews on the about page.
+- **application logic** - For submission forms and other buttons there is simple logic to go between pages.
