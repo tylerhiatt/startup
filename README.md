@@ -74,3 +74,12 @@ The website now has JavaScript enabled capabilities described below. There are a
 - **database** - User login and customer review data is currently stored in local storage but holds a placeholder for future database communication.
 - **WebSocket** - There's a placeholder present for a WebSocket connection to display real-time customer reviews on the about page.
 - **application logic** - For submission forms and other buttons there is simple logic to go between pages.
+
+## Service Deliverable
+The website now has backend endpoints that receives order and products.
+
+- **Node.js/Express HTTP service created**
+- **Static Middleware for frotend created**
+- **Calls to third party endpoints** - there is a placeholder for accessing info in my MongoDB database .
+- **Backend service endpoints** - There are endpoints for accessing my mongoDB database for order and product history. There is also a placeholder for login that stores the current user on the server.
+- **Frontend calls service endpoints** - Done using the fetch function
