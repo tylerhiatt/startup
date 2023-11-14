@@ -1,0 +1,16 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "[Fernweh Ventures Stand-Up Paddle Board Website](https://fernwehsup.com) # Deliverable Specification ## Elevator Pitch Welcome to Fernweh Ventures, your gateway to adventure! At Fernweh Ventures, we've redefined the way you explore the great outdoors. Imagine packing up your sense of wanderlust, your thirst for adventure, and your love for paddleboarding into one lightweight backpack. With our innovative, packable, and inflatable stand-up paddle boards, you can now embark on backpacking trips like never before.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2"
+  }
+}
