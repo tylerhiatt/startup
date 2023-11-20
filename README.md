@@ -83,3 +83,20 @@ The website now has backend endpoints that receives order and products.
 - **Calls to third party endpoints** - there is a placeholder for accessing info in my MongoDB database .
 - **Backend service endpoints** - There are endpoints for accessing my mongoDB database for order and product history. There is also a placeholder for login that stores the current user on the server.
 - **Frontend calls service endpoints** - Done using the fetch function
+
+## Database Deliverable
+In my database I stored the products and created collections for orders and users.
+
+- **MongoDB Atlas database created**  
+- **Endpoints for data** - my endpoints process the data and send it to MongoDB
+- **Stores data in MongoDB**
+
+## Login Deliverable
+I added user authentication to the website. The user's info is stored in my database.
+
+- **User registration** - creates a new account in the database in the user collection
+- **Existing User** - stores user info so that when the user signs in again I can check against the database to see if that user already exists.
+- **Use MongoDB to store credentials** - stores a user and their order
+- **Restricts functionality** - I use a secure API router to limit certain activities, like ordering a product.
+
+
