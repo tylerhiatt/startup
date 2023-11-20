@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // grab all the forms wanted to apply custom Bootstrap validation styles to
   const forms = document.querySelectorAll('.needs-validation');
 
-  // Function to post data to your server
+  // Function to post data to server
   async function postData(url = '', data = {}) {
       const response = await fetch(url, {
           method: 'POST', 
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         // change server endpoint to the database where i want to send the data to
-        postData('SERVER_ENDPOINT', formData)
+        postData('/api/order', formData)
           .then(data => {
             // Handle response here
             console.log(data); // JSON data returned by server
