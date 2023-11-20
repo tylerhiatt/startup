@@ -8,23 +8,33 @@ const client = new MongoClient(url);
 let db;
 
 // This will asynchronously test the connection and exit the process if it fails
-(async function testConnection() {
-  await client.connect();
-  await db.command({ ping: 1 });
-})().catch((ex) => {
-  console.log(`Unable to connect to database with ${url} because ${ex.message}`);
-  process.exit(1);
-});
+// (async function testConnection() {
+//   await client.connect();
+//   await db.command({ ping: 1 });
+// })().catch((ex) => {
+//   console.log(`Unable to connect to database with ${url} because ${ex.message}`);
+//   process.exit(1);
+// });
 
 // initialize and connect to MongoDB
 async function initializeDB() {
-    await client.connect();
-    db = client.db('startup'); // name of database
-    console.log("Connected to MongoDB");
+    try {
+        await client.connect();
+        db = client.db('startup'); // name of database
+        console.log("Connected to MongoDB");
 
-    // set up initial collections, indexes, etc.
-    await initializeProducts();
-}
+        // Perform a simple operation to confirm the connection
+        await db.command({ ping: 1 });
+        console.log("MongoDB ping successful");
+
+        // set up initial collections, indexes, etc.
+        await initializeProducts();
+    } catch (ex) {
+        console.log(`Unable to connect to database with ${url} because ${ex.message}`);
+        process.exit(1);
+    }
+    
+};
 
 // function to initialize products
 async function initializeProducts() {
