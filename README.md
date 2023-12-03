@@ -99,4 +99,12 @@ I added user authentication to the website. The user's info is stored in my data
 - **Use MongoDB to store credentials** - stores a user and their order
 - **Restricts functionality** - I use a secure API router to limit certain activities, like ordering a product.
 
+# Websocket Deliverable
+For this deliverable I used webSocket to update customer reviews on the frontend in realtime.
+
+- **Backend listens for WebSocket connection**
+- **Frontend makes WebSocket connection**
+- **Data sent over WebSocket connection** 
+- **WebSocket data displayed** - Customer reivews are displayed in realtime.
+
 
