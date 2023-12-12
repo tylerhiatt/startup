@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.custom-button-sandy {
+    background-color: rgb(247, 116, 1); 
+    border-color: rgb(247, 116, 1);
+}
+
+.custom-button-sandy:hover {
+    background-color: rgb(249, 87, 56); 
+    border-color: rgb(249, 116, 1);
+}
+
+.custom-blue,
+.custom-blue a, 
+.custom-blue a:visited, 
+.custom-blue a:hover, 
+.custom-blue a:active {
+    color: rgb(8, 61, 119);
+}

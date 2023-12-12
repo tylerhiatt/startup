@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <!-- <script src="../assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>About Page</title>
+
+    <!-- Grab the Bootstrap CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    -->
+
+    <!-- Custom styles for this template -->
+    <link href="about.css" rel="stylesheet">
+    
+  </head>
+  <body>
+
+
+<main>
+
+<section class="hero-section">
+    <header class="mb-auto">
+        <div>
+          <h5 class="float-md-start mb-0 text-center" style="color: #083D77">Fernweh Ventures</h5>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="index.html">Home</a>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" style="text-shadow: 1px 1px #000;" href="about.html">About</a>
+            <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="order.html">Order</a>
+            <a class="nav-link fw-bold py-1 px-0" style="color: #083D77" href="signin.html">Sign In</a>
+          </nav>
+        </div>
+      </header>
+      <div class="py-5 container">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <h1 style="color: #EBEBD3; text-shadow: 1px 1px #000;
+              ;">About Our Products</h1>
+              <p style="color: #EBEBD3; text-shadow: 1px 1px #000" class="lead text-body-secondary">At Fernweh Ventures, we are dedicated to making products that redefine the way you explore the great outdoors.</p>
+            </div>
+          </div>
+      </div>
+</section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="website-pics/pexels-irockeritaly-7967504.jpg" class="card-img-top" alt="SUP Order">
+                    <div class="card-body">
+                        <h5>Adventurer's Stand-Up Paddle Board</h5>
+                        <p class="card-text">Discover the freedom of paddleboarding like never before with 
+                          our lightweight stand-up paddle board that fits right into your 
+                          backpack. Whether you're a seasoned paddler or a first-time adventurer, 
+                          this board is designed for you.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Order <a href="order.html"></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="website-pics/pexels-pawan-yadav-2577274.jpg" class="card-img-top" alt="Backpack Order">
+                    <div class="card-body">
+                        <h5>Adventurer's Backpack</h5>
+                        <p class="card-text">Whether you're a seasoned paddleboard enthusiast or a beginner 
+                          looking to explore serene waters, this backpack is designed to 
+                          make your paddling experience easier, more convenient, and stylish.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Order <a href="order.html"></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Reviews Section -->
+        <section class="customer-reviews-section py-4">
+          <hr/>
+          <div class="container">
+              <h2 class="text-center">Customer Reviews</h2>
+              <div class="row mt-4">
+                  <div class="col-md-6">
+                      <div class="review">
+                          <p class="review-text">"This paddle board is amazing! Lightweight and easy to carry."</p>
+                          <p class="review-author">- John Doe</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="review">
+                          <p class="review-text">"Loved the experience! Highly recommended."</p>
+                          <p class="review-author">- Jane Smith</p>
+                      </div>
+                  </div>
+                  <!-- Add more reviews as needed in new <div class="col-md-6"> elements -->
+              </div>
+              <!-- Review Submission Form -->
+              <div class="review-submission-form py-3">
+                <h4>Leave a Review</h4>
+                <form>
+                  <textarea class="form-control" id="reviewText" rows="3" placeholder="Write your review here..." required></textarea>
+                  <button type="button" class="btn btn-primary mt-2 custom-button-sandy" onclick="submitReview()">Submit Review</button>
+                </form>
+            </div>
+          </div>
+        </section>
+                
+        <!-- Sign Up Section -->
+        <section class="sign-up py-3">
+          <hr/>
+          <h2>Sign Up for Exclusive Offers</h2>
+          <p>Stay updated with our latest products and promotions.</p>
+          <button type="button" class="btn btn-primary mt-2 custom-button-sandy" id="signInButton">Sign In / Create Account</button>
+
+          <!-- <form>
+            <label for="username" class="form-label">Username</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback">
+                    Your username is required.
+                </div>
+            </div>
+            <label for="password" class="form-label pt-2">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password" required>
+          </form> -->
+        </section>
+
+    </div>
+    
+</div>
+
+</main>
+
+<footer class="text-body-secondary py-5 text-center">
+  <div class="container">
+    <p class="mb-1">&copy; Fernweh Ventures</p>
+    <ul class="list-inline">
+      <li class="list-inline-item custom-blue"><a href="index.html">Home</a></li>
+      <li class="list-inline-item custom-blue"><a href="order.html">Order</a></li>
+      <li class="list-inline-item custom-blue"><a href="signin.html">Sign In</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="about.js"></script>
+
+    </body>
+</html>
