@@ -107,4 +107,10 @@ For this deliverable I used webSocket to update customer reviews on the frontend
 - **Data sent over WebSocket connection** 
 - **WebSocket data displayed** - Customer reivews are displayed in realtime.
 
+# React Deliverable
+For this deliverable I converted the application over to use React.
 
+- **Bundled and transpiled**
+- **Components** - Home, About, Signin, and Order are all components that are rendered.
+- **Router** - Routing between form submissions.
+- **Hooks** - Uses UseState() to track changes in submission details.
