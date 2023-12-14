@@ -98,6 +98,7 @@ const SigninPage = () => {
           <ul className="list-inline">
             <li className="list-inline-item custom-blue"><Link to="/">Home</Link></li>
             <li className="list-inline-item custom-blue"><Link to="/about">About</Link></li>
+            <li className="list-inline-item custom-blue"><Link to="/order">Order</Link></li>
           </ul>
         </form>
       </main>
