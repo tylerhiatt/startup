@@ -36,7 +36,7 @@ const AboutPage = () => {
             <div className="row row-cols-1 row-cols-sm-2 g-3">
                 <div className="col">
                     <div className="card shadow-sm">
-                        <img src="src/website-pics/pexels-irockeritaly-7967504.jpg" className="card-img-top" alt="SUP Order" />
+                        <img src="/website-pics/pexels-irockeritaly-7967504.jpg" className="card-img-top" alt="SUP Order" />
                         <div className="card-body">
                             <h5>Adventurer's Stand-Up Paddle Board</h5>
                             <p className="card-text">Discover the freedom of paddleboarding like never before with 
@@ -53,7 +53,7 @@ const AboutPage = () => {
                 </div>
                 <div className="col">
                     <div className="card shadow-sm">
-                        <img src="src/website-pics/pexels-pawan-yadav-2577274.jpg" className="card-img-top" alt="Backpack Order" />
+                        <img src="/website-pics/pexels-pawan-yadav-2577274.jpg" className="card-img-top" alt="Backpack Order" />
                         <div className="card-body">
                             <h5>Adventurer's Backpack</h5>
                             <p className="card-text">Whether you're a seasoned paddleboard enthusiast or a beginner 

@@ -20,7 +20,7 @@
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 
-  background-image: url(src/website-pics/pexels-laura-stanley-1790184.jpg);
+  background-image: url(/website-pics/pexels-laura-stanley-1790184.jpg);
   /* background-image: url(website-pics/pexels-nick-kwan-2745258.jpg); */
   background-size: cover;
   background-repeat: no-repeat;

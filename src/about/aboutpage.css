@@ -31,7 +31,7 @@
  * Hero Section  
 */
 .hero-section {
-    background: url('src/website-pics/order-hero.jpg') no-repeat center center;
+    background: url('/website-pics/order-hero.jpg') no-repeat center center;
     background-size: cover;
     
     
